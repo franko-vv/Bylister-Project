@@ -17,6 +17,7 @@ public class RunningPlatform : MonoBehaviour {
         int direction = 1;
         int index = 0;
 
+        // цикл для движения платформы от 1 к последней точке и назад
         while (true)
         {
             yield return Points[index];
