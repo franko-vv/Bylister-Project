@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: c06cbf0e019aa7d429a99efedd4fd851
-timeCreated: 1441459795
+timeCreated: 1451117295
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: owl
+    21300002: owl_1_1
+    21300004: owl_1_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +33,15 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  allowsAlphaSplitting: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +52,37 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: owl
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 202
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: owl_1_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 121
+        width: 52
+        height: 110
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: owl_1_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 51
+        height: 110
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

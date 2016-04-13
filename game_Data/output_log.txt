@@ -1,0 +1,47 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 710M (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.199 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Виталий\Documents\Unity Project\Bylister Project\game_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 684 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.818320 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 694.
+Total: 0.748530 ms (FindLiveObjects: 0.093737 ms CreateObjectMapping: 0.065000 ms MarkObjects: 0.562424 ms  DeleteObjects: 0.023263 ms)
+
+(1.0, 0.0)  (0.2, -0.4)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+(1.0, 0.0)  (-0.2, -0.5)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+(1.0, 0.0)  (5.9, -0.4)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+(1.0, 0.0)  (0.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+

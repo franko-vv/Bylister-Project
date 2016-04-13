@@ -2,10 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using System.Linq;
 
 public class RunningPlatform : MonoBehaviour {
 
-    // Позиция, масштаб и поворот обьекта
+    // Позиция, масштаб и поворот обьекта (платформы)
     public Transform[] Points;
 
     // Создаем пользовательский нумератор
@@ -36,14 +37,17 @@ public class RunningPlatform : MonoBehaviour {
 
     public void OnDrawGizmos()
     {
+        // Проверям или количество точек достаточно для отрисовки линии
         if (Points == null || Points.Length < 2)
             return;
 
-        for (int i = 1; i < Points.Length; i++)
+        var points = Points.Where(t => t != null).ToList();
+
+        for (int i = 1; i < points.Count; i++)
         {
             // Рисуем линию между точками где
             // Points[i-1].position - позиция точки с координатами хуz
-            Gizmos.DrawLine(Points[i-1].position, Points[i].position);
+            Gizmos.DrawLine(points[i-1].position, points[i].position);
         }
     }
 }
